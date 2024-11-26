@@ -34,7 +34,7 @@
  }
  
  .player-header {
-    background-color: #1DB954;
+    background-color: #d493bc;
     padding: 20px;
     color: white;
     text-align: center;
@@ -76,7 +76,7 @@
  }
  
  .control-btn {
-    background-color: #1DB954;
+    background-color: #aa3288;
     border: none;
     color: white;
     padding: 10px;
@@ -86,7 +86,7 @@
  }
  
  .control-btn:hover {
-    background-color: #16a34a;
+    background-color: #a7539a;
  }
  
  @media (max-width: 600px) {
