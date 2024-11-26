@@ -1,0 +1,144 @@
+/* Style de base */
+
+body {
+
+    font-family: Arial, sans-serif;
+
+    margin: 0;
+
+    padding: 0;
+
+    background-color: #f8f8f8;
+
+}
+
+
+
+/* Header */
+
+.header {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 10px 20px;
+
+    background: linear-gradient(90deg, #ff758c, #ff7eb3);
+
+    color: #fff;
+
+}
+
+
+
+.search-bar input {
+
+    width: 70%;
+
+    padding: 8px;
+
+    border: none;
+
+    border-radius: 20px;
+
+}
+
+
+
+.profile-icon img {
+
+    width: 40px;
+
+    height: 40px;
+
+    border-radius: 50%;
+
+}
+
+
+
+/* Section principale */
+
+.main {
+
+    padding: 20px;
+
+}
+
+
+
+h2 {
+
+    margin-bottom: 10px;
+
+    font-size: 1.5em;
+
+}
+
+
+
+/* Albums */
+
+.albums {
+
+    display: flex;
+
+    gap: 20px;
+
+}
+
+
+
+.album img {
+
+    width: 100px;
+
+    border-radius: 10px;
+
+}
+
+
+
+.album p {
+
+    text-align: center;
+
+    margin-top: 5px;
+
+}
+
+/* Artistes favoris */
+
+.favorite-artists .artists {
+
+    display: flex;
+
+    gap: 20px;
+
+}
+
+
+
+.artist img {
+
+    width: 60px;
+
+    height: 60px;
+
+    border-radius: 50%;
+
+}
+
+
+
+.artist p {
+
+    text-align: center;
+
+    margin-top: 5px;
+
+}
+
