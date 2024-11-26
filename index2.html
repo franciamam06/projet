@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maquette Musique</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Barre de recherche et profil -->
+    <header class="header">
+        <div class="search-bar">
+            <input type="text" placeholder="Rechercher...">
+        </div>
+        <div class="profile-icon">
+            <img src="profile-icon.png" alt="Profil">
+        </div>
+    </header>
+
+    <!-- Section principale -->
+    <main class="main">
+        <!-- Albums populaires -->
+        <section class="popular-albums">
+            <h2>Popular album</h2>
+            <div class="albums">
+                <div class="album">
+                    <img src="blond.jpg" alt="Blond Frank Ocean">
+                    <p>Blond <br> Frank Ocean</p>
+                </div>
+                <div class="album">
+                    <img src="ctrl.jpg" alt="CTRL SZA">
+                    <p>CTRL <br> SZA</p>
+                </div>
+                <div class="album">
+                    <img src="hotpink.jpg" alt="Hot Pink Doja Cat">
+                    <p>Hot Pink <br> Doja Cat</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Nouveaux albums -->
+        <section class="new-albums">
+            <h2>New album</h2>
+            <div class="albums">
+                <div class="album">
+                    <img src="ocean.jpg" alt="Ocean Album">
+                </div>
+                <div class="album">
+                    <img src="dojacat.jpg" alt="Doja Cat Album">
+                </div>
+            </div>
+        </section>
+
+        <!-- Musique en cours -->
+        <div class="now-playing">
+            <p>Say So <br> Doja Cat</p>
+            <div class="controls">
+                <button>⏮️</button>
+                <button>⏸️</button>
+                <button>⏭️</button>
+            </div>
+        </div>
+
+        <!-- Artistes favoris -->
+        <section class="favorite-artists">
+            <h2>Favorites Artists</h2>
+            <div class="artists">
+                <div class="artist">
+                    <img src="drake.jpg" alt="Drake">
+                    <p>Drake</p>
+                </div>
+                <div class="artist">
+                    <img src="koba.jpg" alt="Koba La D">
+                    <p>Koba La D</p>
+                </div>
+                <div class="artist">
+                    <img src="unknown.jpg" alt="Unknown Artist">
+                    <p>Unknown</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Section lecture en cours -->
+    <section class="player">
+        <div class="vinyl">
+            <img src="vinyl.png" alt="Vinyl">
+        </div>
+        <div class="song-details">
+            <p>Say So - Doja Cat</p>
+            <div class="progress">
+                <span>1:11</span>
+                <input type="range" min="0" max="100" value="30">
+                <span>3:57</span>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
