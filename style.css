@@ -2,13 +2,13 @@
 
 body {
 
-    font-family: Arial, sans-serif;
+    font-family: Poppins, sans-serif;
 
     margin: 0;
 
     padding: 0;
 
-    background-color: #f8f8f8;
+    background-color: #fca6ca;
 
 }
 
@@ -215,5 +215,23 @@ h2 {
     align-items: center;
 
     justify-content: space-between;
+
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.content card img {
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
