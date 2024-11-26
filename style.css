@@ -8,7 +8,6 @@ body {
 
     padding: 0;
 
-    background-color: #fca6ca;
 
 }
 
@@ -26,9 +25,7 @@ body {
 
     padding: 10px 20px;
 
-    background: linear-gradient(90deg, #ff758c, #ff7eb3);
-
-    color: #fff;
+    
 
 }
 
@@ -223,10 +220,6 @@ h2 {
     justify-content: space-around;
 }
 
-.content card img {
-    display: flex;
-    justify-content: center;
-}
 
 .card{
 
