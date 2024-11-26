@@ -26,7 +26,7 @@ body {
 
     padding: 10px 20px;
 
-    background: linear-gradient(90deg, #ff758c, #70C7EF);
+    background: linear-gradient(90deg, #ff758c, #ff7eb3);
 
     color: #fff;
 
@@ -110,6 +110,44 @@ h2 {
 
 }
 
+
+
+/* Lecture en cours */
+
+.now-playing {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 10px;
+
+    background-color: #ffeff5;
+
+    margin: 20px 0;
+
+    border-radius: 10px;
+
+}
+
+
+
+.controls button {
+
+    background: none;
+
+    border: none;
+
+    font-size: 1.5em;
+
+    cursor: pointer;
+
+}
+
+
+
 /* Artistes favoris */
 
 .favorite-artists .artists {
@@ -142,3 +180,40 @@ h2 {
 
 }
 
+
+
+/* Player */
+
+.player {
+
+    padding: 20px;
+
+    text-align: center;
+
+    background-color: #ffe4eb;
+
+    border-radius: 10px;
+
+}
+
+
+
+.vinyl img {
+
+    width: 100px;
+
+    margin-bottom: 10px;
+
+}
+
+
+
+.progress {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+}
